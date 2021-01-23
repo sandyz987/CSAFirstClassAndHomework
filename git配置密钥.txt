@@ -1,2 +1,17 @@
+配置个人信息
+git config --global user.name "你的用户名"
+git config --global user.email "你的邮箱"
+
+生成密钥
 cd ~/.ssh
 ssh-keygen -t rsa -
+然后在github填密钥中的内容 具体搜“git配置ssh”
+
+上传文件
+在你的要上传的文件夹中右键git bash，输入
+git init
+git add .
+git commit -m "你本次提交的标记/名字，用于描述本次提交，随便填"
+git remote add origin 你的仓库链接，不要引号
+git push
+或者根据提示设置默认分支。
