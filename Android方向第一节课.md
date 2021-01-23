@@ -1,4 +1,4 @@
-## 2020红岩网校移动开发部Android方向第一节课:muscle:
+## 移动开发部Android方向第一节课:muscle:
 
 
 
@@ -51,9 +51,7 @@
 
 - #### Android方向的本学期学习计划（详情请见群文档的入群pdf）✨ 
 
-  移动Android开发，前段时间大概1个多月是进行Java的学习（大佬请无视）。万丈高楼起于垒土，然后，后面就可以跳出黑框框，进行司马行空的Android开发，设计属于你自己的app。最后，使用Kotlin（Java的一种进阶进行高速开发Android）
-
-  ![0基础](C:/Users/86187/Desktop/0基础.jpg)
+  移动Android开发，前段时间大概1个多月是进行Java的学习（大佬请无视）。万丈高楼起于垒土，然后，后面就可以跳出黑框框，进行司马行空的Android开发，设计属于你自己的app。
 
 - #### 提问的方法和常见的问题:fire:
 
@@ -67,48 +65,17 @@
 
   2. 提问的方式
 
-     - 组织你的问题，提问学会停顿。别这样好吗（下面配图）
+     - 组织你的问题，提问学会停顿
 
-     - 尊重双方（别这样好吗，下面配图）
+     - 尊重双方
 
        
 
 - #### 作业提交的方法:fire:
 
-  ![你的作业](C:/Users/86187/Desktop/你的作业.jpg)
+  github 演示
 
-  俗话说的好，光学习，不练习，怎么学的好呢，这个作业呢，你们可以做也可以不做，不是强制性的，但是，你要想摸鱼谁也拦不住你哈。网校就是这么一个开发自由的平台（至少移动是哈）
-
-  1. 写作业的时候先看看作业的要求
-     - ​	Lv0和Lv1建议必须完成
-     - 作业只需要交做的最高等级
-     - 所有作业必须用Java完成，当然你能直接Kotlin也行，提交到mredrock@163.com
-     
-  2. 邮件的主题
-
-     ```
-     第0次-level1-张涛-2019210xxx
-     ```
-
-     Ps:记得将你写的Java文件压缩成zip包，可以下一个BandZip便于压缩。压缩后的**文件名也需要和标题名一样**
-
-     - **附件的内容**：编写程序的所有.Java文件打包成zip。![image-20200929183731038](C:/Users/86187/AppData/Roaming/Typora/typora-user-images/image-20200929183731038.png)
-
-  3. 上传文件（zip）的方法
-
-     在发送邮件中有添加附件。添加即可
-
-     压缩后的**文件名也需要和标题名一样**
-     
-     ```
-     第0次-level1-张涛-2019210xxx
-     ```
-     
-     如果这样都不会！:smirk:
-     
-     ![退群](C:/Users/86187/Desktop/退群.jpg)
-     
-     
+  
 
 > #### 正式开讲
 
@@ -122,32 +89,25 @@
 
   1. 静态布局
 
-![](C:/Users/86187/AppData/Roaming/Typora/typora-user-images/image-20200925152609223.png)
-
 ​			2.动态逻辑代码
 
-​					![image-20200925152848597](C:/Users/86187/AppData/Roaming/Typora/typora-user-images/image-20200925152848597.png)
-
 好了，多的不说，万丈高楼垒土起，大家先从最基础的Java了解吧！
-
-![表情包1](C:/Users/86187/Desktop/表情包1.jpg)
 
 - #### **Java的几大特性**（先了解就好，后面慢慢的会潜移默化的去理解它）
 
   - **Java是简单的**
-    
   1. Java 语言不使用指针，而是引用。并提供了自动的废料收集，使得程序员不必为内存管理而担忧。
-
-  - **Java是面向对象的**
-
-    1. Java 语言提供类、接口和继承等面向对象的特性，为了简单起见，只支持类之间的单继承，但支持接口之间的多继承，并支持类与接口之间的实现机制（关键字为 implements）。
-
-  - **Java是多线程的**
-
-    1. 线程的活动由一组方法来控制。Java 语言支持多个线程的同时执行，并提供多线程之间的同步机制（关键字为 synchronized）。
-
-       ……………………
-
+  
+- **Java是面向对象的**
+  
+  1. Java 语言提供类、接口和继承等面向对象的特性，为了简单起见，只支持类之间的单继承，但支持接口之间的多继承，并支持类与接口之间的实现机制（关键字为 implements）。
+  
+- **Java是多线程的**
+  
+  1. 线程的活动由一组方法来控制。Java 语言支持多个线程的同时执行，并提供多线程之间的同步机制（关键字为 synchronized）。
+  
+     ……………………
+  
 - #### **Java的一些基本语法**:facepunch:
 
   - 对象：对象是一个类的实例，有状态（属性）和行为（函数方法）例如，一条狗是一个对象，它的状态有：颜色、名字、品种；行为有：摇尾巴、叫、吃等。
@@ -158,13 +118,9 @@
 
   - 实例变量：每个对象都有独特的实例，对象的状态由这些实例变量的值确定。
 
-    ![Java基础](C:/Users/86187/Desktop/Java基础.jpg)
-
 - #### **Java基本数据类型:open_mouth:**
 
   
-
-  ![Java数据类型](C:/Users/86187/Desktop/Java数据类型.jpg)
 
   数据类型之前，需要大家理解几个概念，计算机存储的是一堆01010的机械码。
 
@@ -204,8 +160,6 @@
 
   各位大佬，不知道我讲清楚了没有？
 
-  ![秒懂](C:/Users/86187/Desktop/秒懂.gif)
-
   简单介绍下两种数据类型的存储：
 
   - 对于基本类型来说，**栈**区域包含的是基本类型的内容，也就是值；
@@ -231,46 +185,42 @@
   2. **short**
 
      - short 数据类型是 16 位、有符号的以二进制补码表示的整数（2个字节）
-     - 最小值是 **-32768（-2^15）**；
+   - 最小值是 **-32768（-2^15）**；
      - 最大值是 **32767（2^15 - 1）**；
 
   3. **int**
-
+  
      - int 数据类型是32位、有符号的以二进制补码表示的整数；（4个字节）
-     - 最小值是 **-2,147,483,648（-2^31）**；
+   - 最小值是 **-2,147,483,648（-2^31）**；
      - 最大值是 **2,147,483,647（2^31 - 1）**；
 
   4. **long：**
-
+  
      - long 数据类型是 64 位、有符号的以二进制补码表示的整数；
-     - 最小值是 **-9,223,372,036,854,775,808（-2^63）**；
+   - 最小值是 **-9,223,372,036,854,775,808（-2^63）**；
      - 最大值是 **9,223,372,036,854,775,807（2^63 -1）**；
 
   5. **float**
-
+  
      - float 数据类型是单精度、32位、符合IEEE 754标准的浮点数；
-     - float 在储存大型浮点数组的时候可节省内存空间；
+   - float 在储存大型浮点数组的时候可节省内存空间；
      - 默认值是 **0.0f**；
 
   6. **double：**
-
+  
      - double 数据类型是双精度、64 位、符合IEEE 754标准的浮点数；
-     - 浮点数的默认类型为double类型；
-
-  7. **boolean**
-
+   - 浮点数的默认类型为double类型；
+  
+7. **boolean**
+  
      - boolean数据类型表示一位的信息；
-     - 只有两个取值：true 和 false；
+   - 只有两个取值：true 和 false；
      - 这种类型只作为一种标志来记录 true/false 情况；
-     - 默认值是 **false**；
-
+   - 默认值是 **false**；
+  
   8. **char**
-
+  
      - char类型是一个单一的 16 位 Unicode 字符；
-
-  **如何使用**：
-
-  ![image-20200925200152055](C:/Users/86187/AppData/Roaming/Typora/typora-user-images/image-20200925200152055.png)
 
   ​	
 
@@ -280,7 +230,7 @@
   - 实例变量：独立于方法之外的变量，不过没有 static 修饰。
   - 局部变量：类的方法中的变量。
 
-例如：![image-20200925213832651](C:/Users/86187/AppData/Roaming/Typora/typora-user-images/image-20200925213832651.png)
+
 
 简单介绍一下他们的区别：
 
@@ -289,8 +239,6 @@
 **局部变量**：
 
 **局部变量在方法、构造方法、或者语句块被执行的时候创建**，当它们执行完成后，变量将会被销毁。**局部变量没有默认值**，所以局部变量被声明后，**必须经过初始化**，才可以使用
-
-![image-20200926161847912](C:/Users/86187/AppData/Roaming/Typora/typora-user-images/image-20200926161847912.png)
 
 
 
@@ -329,39 +277,32 @@
   - **private** : 在同一类内可见。使用对象：变量、方法。 **注意：不能修饰类（外部类）**
   - **public** : 对所有类可见。使用对象：类、接口、变量、方法
   - **protected** : 对同一包内的类和所有子类可见。使用对象：变量、方法。 **注意：不能修饰类（外部类）**。
-  - ![访问修饰符](C:/Users/86187/Desktop/访问修饰符.png)
-
-  **非访问修饰符**
-
-  ​	**static 修饰符**
-
-  - **静态变量：**
-
-    static 关键字用来声明独立于对象的静态变量，无论一个类实例化多少对象，它的静态变量只有一份拷贝。 静态变量也被称为类变量。局部变量不能被声明为 static 变量		
-
-  - **静态方法：**
-
-    static 关键字用来声明独立于对象的静态方法。静态方法不能使用类的非静态变量。静态方法从参数列表得到数据，然后计算这些数据。
-
-    
-
-    对类变量和方法的访问可以直接使用 **classname.variablename** 和 **classname.methodname** 的方式访问
-
-    
-
-    这些概念大家可以后面慢慢去理解，我只是在这里给大家整理下学习的思路。
-
+  
+**非访问修饰符**
+  
+​	**static 修饰符**
+  
+- **静态变量：**
+  
+  static 关键字用来声明独立于对象的静态变量，无论一个类实例化多少对象，它的静态变量只有一份拷贝。 静态变量也被称为类变量。局部变量不能被声明为 static 变量		
+  
+- **静态方法：**
+  
+  static 关键字用来声明独立于对象的静态方法。静态方法不能使用类的非静态变量。静态方法从参数列表得到数据，然后计算这些数据。
+  
+  
+  
+  对类变量和方法的访问可以直接使用 **classname.variablename** 和 **classname.methodname** 的方式访问
+  
+  
+  
+  这些概念大家可以后面慢慢去理解，我只是在这里给大家整理下学习的思路。
 
 
-**具体的使用**：:flushed:
-
-​		![image-20200926172502718](C:/Users/86187/AppData/Roaming/Typora/typora-user-images/image-20200926172502718.png)	**final修饰符**:flushed:
 
 - **final变量**：
 
-  final表示“最后的，最终的”含义，变量一旦赋值后，不能被重新赋值。被 final 修饰的实例变量必须显式指定初始值，final 修饰符通常和 static 修饰符一起使用来创建类常量
-
-  ![image-20200926205411163](C:/Users/86187/AppData/Roaming/Typora/typora-user-images/image-20200926205411163.png)
+  final表示“最后的，最终的”含义，变量一旦赋值后，不能被重新赋值。被 final 修饰的实例变量必须显式指定初始值，final 修饰符通常和 static 修饰符一起使用来创建类常量const
 
   - **final方法**
 
@@ -385,10 +326,6 @@
 
   - **算术运算符**（+,-,*,/,%,++,--)
 
-    ![image-20200926210535635](C:/Users/86187/AppData/Roaming/Typora/typora-user-images/image-20200926210535635.png)
-
-    ![image-20200926210716495](C:/Users/86187/AppData/Roaming/Typora/typora-user-images/image-20200926210716495.png)
-
     d++和++d的区别是，d++是先使用d，再自加，++d是先加后再使用。
 
     
@@ -397,23 +334,17 @@
 
   - **位运算符**（可能数电，或者后面Android涉及到Color的时候会用到）
 
-    ![image-20200926211041879](C:/Users/86187/AppData/Roaming/Typora/typora-user-images/image-20200926211041879.png)
-
   - **逻辑运算符**（且&&，或||，非！）
 
   - **赋值运算符**（=，+=，-=，*=，/=，（%）=....)
 
   - **三元运算符，条件运算符**（？：），是if...else的缩写。
 
-    ![表情包1](C:/Users/86187/Desktop/表情包1.jpg)
-
-    ![image-20200926211745202](C:/Users/86187/AppData/Roaming/Typora/typora-user-images/image-20200926211745202.png)
-
   - **instanceof 运算符**
 
     该运算符用于操作对象实例，检查该对象是否是一个特定类型（类类型或接口类型）
 
-    ![image-20200926212240227](C:/Users/86187/AppData/Roaming/Typora/typora-user-images/image-20200926212240227.png)
+    
 
     - **Java运算符优先级**，这个一般的开发中不怎么会为难你，除非是考试，或者炫技的程序员（不过这种一般会被喷）
 
@@ -423,7 +354,7 @@
   
   - ​	**sout**(缩写)
   
-    ​	System.out.println（）输出
+    ​	System.out.print（）输出
   
   - 输入函数（Scanner类）
   
@@ -451,20 +382,16 @@
     }
     ```
 
-    ![image-20200928215413108](C:/Users/86187/AppData/Roaming/Typora/typora-user-images/image-20200928215413108.png)
-
-  - **嵌套的if...else语句**
-
-    ​	![image-20200928220000271](C:/Users/86187/AppData/Roaming/Typora/typora-user-images/image-20200928220000271.png)
+    
 
   - **Swith  case语句**
 
     ​		
 
     ```
-    switch(expression){
+  switch(expression){
         case value :
-           //语句
+         //语句
            break; //可选
         case value :
            //语句
@@ -474,28 +401,26 @@
            //语句
     }
     ```
-
+  
     当遇到 break 语句时，switch 语句终止。程序跳转到 switch 语句后面的语句执行。case 语句不必须要包含 break 语句。如果没有 break 语句出现，程序会继续执行下一条 case 语句，直到出现 break 语句。default 分支不需要 break 语句。
-
+  
   - **switch case 执行时，一定会先进行匹配，匹配成功返回当前 case 的值，再根据是否有 break，判断是否继续输出，或是跳出判断**
 
-    ![image-20200928220347760](C:/Users/86187/AppData/Roaming/Typora/typora-user-images/image-20200928220347760.png)
+    
 
     **如果 case 语句块中没有 break 语句时，JVM 并不会顺序输出每一个 case 对应的返回值，而是继续匹配，匹配不成功则返回默认 case**
-
-    ![image-20200928220535754](C:/Users/86187/AppData/Roaming/Typora/typora-user-images/image-20200928220535754.png)
 
     ​	
 
     **如果 case 语句块中没有 break 语句时，匹配成功后，从当前 case 开始，后续所有 case 的值都会输出。**
 
-    ![image-20200928220615644](C:/Users/86187/AppData/Roaming/Typora/typora-user-images/image-20200928220615644.png)
+    
 
     ​	总的来说，Switch case一定会**先进行匹配**，匹配成功返回当前 case 的值，再根据是否有 break，判断是否继续输出，或是跳出判断
 
 - #### 循环语句:stuck_out_tongue_closed_eyes:
 
-  ![表情包1](C:/Users/86187/Desktop/表情包1.jpg)
+  
 
   - **while循环**
   
@@ -507,7 +432,7 @@
 
     只有布尔表达式为true时，才会执行
 
-    ![image-20200928221038224](C:/Users/86187/AppData/Roaming/Typora/typora-user-images/image-20200928221038224.png)
+    
 
   - **do..while循环**
 
@@ -519,7 +444,7 @@
   }while(布尔表达式);
     ```
 
-    ![image-20200929135707847](C:/Users/86187/AppData/Roaming/Typora/typora-user-images/image-20200929135707847.png)
+    
 
   - **for循环**
 
@@ -531,11 +456,11 @@
   }
     ```
 
-    ![image-20200929135908829](C:/Users/86187/AppData/Roaming/Typora/typora-user-images/image-20200929135908829.png)
+    
 
     - ​	**嵌套的for循环**
 
-      ​	![image-20200929140325673](C:/Users/86187/AppData/Roaming/Typora/typora-user-images/image-20200929140325673.png)
+      
 
     - **Java中的for循环**
 
@@ -550,25 +475,25 @@
     }
       ```
 
-      ​	![image-20200929140616894](C:/Users/86187/AppData/Roaming/Typora/typora-user-images/image-20200929140616894.png)
+      
 
   - **break语句**
 
     break 主要用在循环语句或者 switch 语句中，用来跳出整个语句块。
 
-    ​	![image-20200929142208596](C:/Users/86187/AppData/Roaming/Typora/typora-user-images/image-20200929142208596.png)
+    ​	
 
   - **continue关键字**
 
     continue 适用于任何循环控制结构中。作用是让程序立刻跳转到下一次循环的迭代。
   
-  ![image-20200929142619829](C:/Users/86187/AppData/Roaming/Typora/typora-user-images/image-20200929142619829.png)
+  
 
 
 
 - #### 数组(存储固定大小的同类型元素)
 
-  ![表情包1](C:/Users/86187/Desktop/表情包1.jpg)
+  
 
   - **声明数组变量**
   
@@ -585,20 +510,18 @@
   - **创建数组**
   
     ```java
-    double []myList=new double[arraysize];
+    double []myList=new double[arraysize];{0,0,0,0,0}
     或
 double []myList={value0,value1...}//直接赋值类型
     ```
 
-  - ![image-20200929151501510](C:/Users/86187/AppData/Roaming/Typora/typora-user-images/image-20200929151501510.png)
-
+  
+  
   - **简单的数组操作**
 
     - **遍历所有数组元素**
 
       for-each循环实现
-
-      ![image-20200929151929677](C:/Users/86187/AppData/Roaming/Typora/typora-user-images/image-20200929151929677.png)
 
   - **多维数组**
 
@@ -612,9 +535,9 @@ double []myList={value0,value1...}//直接赋值类型
 type[][] typeName = new type[typeLength1][typeLength2];
     ```
   
-    ype 可以为基本数据类型和复合数据类型，arraylength1 和 arraylength2 必须为正整数，arraylength1 为行数，arraylength2 为列数。
+    type 可以为基本数据类型和复合数据类型，arraylength1 和 arraylength2 必须为正整数，arraylength1 为行数，arraylength2 为列数。
   
-    ![image-20200929160401681](C:/Users/86187/AppData/Roaming/Typora/typora-user-images/image-20200929160401681.png)
+    
 
 - #### **冒泡排序**:grinning:grinning:
 
@@ -686,27 +609,3 @@ type[][] typeName = new type[typeLength1][typeLength2];
 2. (针对一个含有n个元素的数组进行冒泡）
    - 含有n个元素的数组,至多进行(n-1)次排序便可以完成冒泡排序.
    -  针对每次排序:第(n-1)次,即最后1次排序,只需要比较1次便可完成本次排序
-
-**代码实现**
-
-​	![image-20200929164740230](C:/Users/86187/AppData/Roaming/Typora/typora-user-images/image-20200929164740230.png)
-
-![image-20200929164801826](C:/Users/86187/AppData/Roaming/Typora/typora-user-images/image-20200929164801826.png)
-
-
-
-
-
-![学到许多](C:/Users/86187/Desktop/学到许多.jpg)
-
-
-
-- #### 写在最后:smile:
-
-  
-
-> 很高兴大家加入红岩网校，网校的学习速度确实很快，需要大家下来更多的花时间去理解和消化，不过没关系，你要相信你的代码不会白敲。编程中我们会遇到很多挫折。表放弃，沙漠尽头必是绿洲。希望大家在今后的学习生活中能做到**心里有火，眼里有光**！加油！
-
-:muscle::muscle::muscle:
-
-:![网校](C:/Users/86187/Desktop/网校.jpg)
